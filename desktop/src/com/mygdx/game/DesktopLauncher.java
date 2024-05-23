@@ -10,6 +10,7 @@ public class DesktopLauncher {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);
 		config.setTitle("Platformer Game");
+		config.setWindowedMode(1720, 960);
 		new Lwjgl3Application(new PlatformerGame(), config);
 	}
 }
